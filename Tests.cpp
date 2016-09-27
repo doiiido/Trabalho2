@@ -3,6 +3,7 @@
 
 TEST (processa_romanosTest, I) { 
 	ASSERT_EQ (1, processa_romanos("I"));
+	ASSERT_EQ (3, processa_romanos("III")); 
 }
 
 int main(int argc, char **argv) {
