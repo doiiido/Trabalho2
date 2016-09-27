@@ -22,10 +22,14 @@ int roman_to_int_vect(const char* rom, int* processed){
 			case 'D':
 				processed [i]= 500;
 				break;
+			case 'M':
+				processed [i]= 1000;
+				break;
 		}	
 	}
 	return 0;
 }
+
 
 int processa_romanos(const char* num){
 	int size = strlen(num), processed [size];

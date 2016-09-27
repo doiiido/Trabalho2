@@ -30,6 +30,44 @@ TEST (processa_romanosTest, D) {
 	ASSERT_EQ (500, processa_romanos("D"));
 	ASSERT_EQ (503, processa_romanos("DIII"));
 }
+TEST (processa_romanosTest, M) { 
+	ASSERT_EQ (900, processa_romanos("CM"));
+	ASSERT_EQ (1000, processa_romanos("M"));
+	ASSERT_EQ (1300, processa_romanos("MCCC"));
+}
+TEST (processa_romanosTest, MixIVXL) { 
+	ASSERT_EQ (44, processa_romanos("XLIV"));
+	ASSERT_EQ (45, processa_romanos("XLV"));
+	ASSERT_EQ (48, processa_romanos("XLVIII"));
+}
+TEST (processa_romanosTest, MixIVXC) { 
+	ASSERT_EQ (94, processa_romanos("XCIV"));
+	ASSERT_EQ (95, processa_romanos("XCV"));
+	ASSERT_EQ (98, processa_romanos("XCVIII"));
+}
+TEST (processa_romanosTest, MixIVXLC) { 
+	ASSERT_EQ (184, processa_romanos("CLXXXIV"));
+	ASSERT_EQ (185, processa_romanos("CLXXXV"));
+	ASSERT_EQ (188, processa_romanos("CLXXXVIII"));
+}
+TEST (processa_romanosTest, MixIVXLCD) { 
+	ASSERT_EQ (664, processa_romanos("DCLXIV"));
+	ASSERT_EQ (665, processa_romanos("DCLXV"));
+	ASSERT_EQ (668, processa_romanos("DCLXVIII"));
+}
+TEST (processa_romanosTest, MixIVXLCDM) { 
+	ASSERT_EQ (1644, processa_romanos("MDCXLIV"));
+	ASSERT_EQ (1645, processa_romanos("MDCXLV"));
+	ASSERT_EQ (1648, processa_romanos("MDCXLVIII"));
+}
+TEST (processa_romanosTest, MMDCCCLV) { 
+	ASSERT_EQ (2854, processa_romanos("MMDCCCLIV"));
+	ASSERT_EQ (2855, processa_romanos("MMDCCCLV"));
+	ASSERT_EQ (2858, processa_romanos("MMDCCCLVIII"));
+}
+TEST (processa_romanosTestTest, end) { 
+    ASSERT_EQ (2999, processa_romanos("MMCMXCIX"));
+}
 
 int main(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);
