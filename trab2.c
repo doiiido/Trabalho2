@@ -7,6 +7,9 @@ int roman_to_int_vect(const char* rom, int* processed){
 			case 'I':
 				processed [i]= 1;
 				break;
+			case 'V':
+				processed [i]= 5;
+				break;
 		}	
 	}
 	return 0;
@@ -19,6 +22,8 @@ int processa_romanos(const char* num){
 	roman_to_int_vect(num, processed);
 	for(int i=0; i<size;i++){
 		result += processed[i];
+		if(ant < processed[i])
+			result -= 2*ant;
 		if(size > i+1)
 			ant = processed[i];
 	}
