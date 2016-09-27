@@ -15,6 +15,11 @@ TEST (processa_romanosTest, X) {
 	ASSERT_EQ (10, processa_romanos("X"));
 	ASSERT_EQ (13, processa_romanos("XIII"));
 }
+TEST (processa_romanosTest, L) { 
+	ASSERT_EQ (49, processa_romanos("IL"));
+	ASSERT_EQ (50, processa_romanos("L"));
+	ASSERT_EQ (53, processa_romanos("LIII")); 
+}
 
 int main(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);

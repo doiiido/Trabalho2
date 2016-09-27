@@ -13,6 +13,9 @@ int roman_to_int_vect(const char* rom, int* processed){
 			case 'X':
 				processed [i]= 10;
 				break;
+			case 'L':
+				processed [i]= 50;
+				break;
 		}	
 	}
 	return 0;
