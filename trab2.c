@@ -19,6 +19,9 @@ int roman_to_int_vect(const char* rom, int* processed){
 			case 'C':
 				processed [i]= 100;
 				break;
+			case 'D':
+				processed [i]= 500;
+				break;
 		}	
 	}
 	return 0;
