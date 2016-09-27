@@ -68,6 +68,15 @@ TEST (processa_romanosTest, MMDCCCLV) {
 TEST (processa_romanosTestTest, end) { 
     ASSERT_EQ (2999, processa_romanos("MMCMXCIX"));
 }
+TEST (processa_romanosTest, invalidos) { 
+	ASSERT_EQ (-1, processa_romanos("HUE"));
+	ASSERT_EQ (-1, processa_romanos("XCM"));
+	ASSERT_EQ (-1, processa_romanos("IXI"));
+	ASSERT_EQ (-1, processa_romanos("IIII"));
+	ASSERT_EQ (-1, processa_romanos("IIV"));
+	ASSERT_EQ (-1, processa_romanos("VX"));
+	ASSERT_EQ (-1, processa_romanos("VV"));
+}
 
 int main(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);
