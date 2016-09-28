@@ -1,0 +1,439 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="d0/d09/_tests_8cpp" kind="file" language="C++">
+    <compoundname>Tests.cpp</compoundname>
+    <includes local="yes">gtest/gtest.h</includes>
+    <includes refid="d4/dc8/trab2_8h" local="yes">trab2.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>trab2.h</label>
+        <link refid="d4/dc8/trab2_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="0">
+        <label>Tests.cpp</label>
+        <link refid="d0/d09/_tests_8cpp"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+      <node id="1">
+        <label>gtest/gtest.h</label>
+      </node>
+      <node id="3">
+        <label>trab2.cc</label>
+        <link refid="d1/d6e/trab2_8cc"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="d0/d09/_tests_8cpp_1a71ab55757dab3274d7ce4fda65d525cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(processa_romanosTest, I)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>processa_romanosTest</type>
+        </param>
+        <param>
+          <type>I</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests.cpp" line="8" column="1" bodyfile="Tests.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d09/_tests_8cpp_1ac183552a0acfd4a73f8bfdf49fde6d9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(processa_romanosTest, V)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>processa_romanosTest</type>
+        </param>
+        <param>
+          <type>V</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests.cpp" line="12" column="1" bodyfile="Tests.cpp" bodystart="12" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d09/_tests_8cpp_1a37200a1bb40e19e7a8e264fefb851c33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(processa_romanosTest, X)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>processa_romanosTest</type>
+        </param>
+        <param>
+          <type>X</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests.cpp" line="17" column="1" bodyfile="Tests.cpp" bodystart="17" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d09/_tests_8cpp_1ae18e99bf21463535d99fcf2496eb9c39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(processa_romanosTest, L)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>processa_romanosTest</type>
+        </param>
+        <param>
+          <type>L</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests.cpp" line="22" column="1" bodyfile="Tests.cpp" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d09/_tests_8cpp_1a68a786bada42edc1056d32fe05110110" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(processa_romanosTest, C)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>processa_romanosTest</type>
+        </param>
+        <param>
+          <type>C</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests.cpp" line="27" column="1" bodyfile="Tests.cpp" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d09/_tests_8cpp_1aa9acc5741966225d743462ac9fe2a0eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(processa_romanosTest, D)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>processa_romanosTest</type>
+        </param>
+        <param>
+          <type>D</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests.cpp" line="32" column="1" bodyfile="Tests.cpp" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d09/_tests_8cpp_1adba8a3c1a657f2ca2e81647f80b0195a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(processa_romanosTest, M)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>processa_romanosTest</type>
+        </param>
+        <param>
+          <type>M</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests.cpp" line="37" column="1" bodyfile="Tests.cpp" bodystart="37" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d09/_tests_8cpp_1a4fc29225452e107d5aa5ce8b869a71a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(processa_romanosTest, MixIVXL)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>processa_romanosTest</type>
+        </param>
+        <param>
+          <type>MixIVXL</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests.cpp" line="42" column="1" bodyfile="Tests.cpp" bodystart="42" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d09/_tests_8cpp_1a43764b8010c8b19709aa07f73946dfd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(processa_romanosTest, MixIVXC)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>processa_romanosTest</type>
+        </param>
+        <param>
+          <type>MixIVXC</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests.cpp" line="47" column="1" bodyfile="Tests.cpp" bodystart="47" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d09/_tests_8cpp_1af255b833dcf76f413b20da8aec74fda6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(processa_romanosTest, MixIVXLC)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>processa_romanosTest</type>
+        </param>
+        <param>
+          <type>MixIVXLC</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests.cpp" line="52" column="1" bodyfile="Tests.cpp" bodystart="52" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d09/_tests_8cpp_1a53e032622a3cddfce1a0e5ce1af1dfd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(processa_romanosTest, MixIVXLCD)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>processa_romanosTest</type>
+        </param>
+        <param>
+          <type>MixIVXLCD</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests.cpp" line="57" column="1" bodyfile="Tests.cpp" bodystart="57" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d09/_tests_8cpp_1a300a1ded61f3945e571c9ccb63f59ce9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(processa_romanosTest, MixIVXLCDM)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>processa_romanosTest</type>
+        </param>
+        <param>
+          <type>MixIVXLCDM</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests.cpp" line="62" column="1" bodyfile="Tests.cpp" bodystart="62" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d09/_tests_8cpp_1a6251467894fb176797bb92f7d261503e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(processa_romanosTest, MMDCCCLV)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>processa_romanosTest</type>
+        </param>
+        <param>
+          <type>MMDCCCLV</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests.cpp" line="67" column="1" bodyfile="Tests.cpp" bodystart="67" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d09/_tests_8cpp_1a43640f209d2f0dbbf992ea4b75e40e5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(processa_romanosTestTest, end)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>processa_romanosTestTest</type>
+        </param>
+        <param>
+          <type>end</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests.cpp" line="72" column="1" bodyfile="Tests.cpp" bodystart="72" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d09/_tests_8cpp_1ae64ff0359d8935c0abf297d955e5256f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(processa_romanosTest, invalidos)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>processa_romanosTest</type>
+        </param>
+        <param>
+          <type>invalidos</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests.cpp" line="75" column="1" bodyfile="Tests.cpp" bodystart="75" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d09/_tests_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(int argc, char **argv)</argsstring>
+        <name>main</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests.cpp" line="85" column="1" bodyfile="Tests.cpp" bodystart="85" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>Programa<sp/>desenvolvido<sp/>por<sp/>Lincoln<sp/>Abreu<sp/>Barbosa,<sp/>14/0045023</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/>https://github.com/doiiido/Trabalho2</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gtest/gtest.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d4/dc8/trab2_8h" kindref="compound">trab2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="d0/d09/_tests_8cpp_1a71ab55757dab3274d7ce4fda65d525cb" refkind="member"><highlight class="normal"><ref refid="d0/d09/_tests_8cpp_1a71ab55757dab3274d7ce4fda65d525cb" kindref="member">TEST</ref><sp/>(processa_romanosTest,<sp/>I)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(1,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;I&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(3,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;III&quot;</highlight><highlight class="normal">));<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12" refid="d0/d09/_tests_8cpp_1ac183552a0acfd4a73f8bfdf49fde6d9d" refkind="member"><highlight class="normal"><ref refid="d0/d09/_tests_8cpp_1a71ab55757dab3274d7ce4fda65d525cb" kindref="member">TEST</ref><sp/>(processa_romanosTest,<sp/>V)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(4,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;IV&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(5,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;V&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(8,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;VIII&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17" refid="d0/d09/_tests_8cpp_1a37200a1bb40e19e7a8e264fefb851c33" refkind="member"><highlight class="normal"><ref refid="d0/d09/_tests_8cpp_1a71ab55757dab3274d7ce4fda65d525cb" kindref="member">TEST</ref><sp/>(processa_romanosTest,<sp/>X)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(9,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;IX&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(10,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;X&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(13,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;XIII&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22" refid="d0/d09/_tests_8cpp_1ae18e99bf21463535d99fcf2496eb9c39" refkind="member"><highlight class="normal"><ref refid="d0/d09/_tests_8cpp_1a71ab55757dab3274d7ce4fda65d525cb" kindref="member">TEST</ref><sp/>(processa_romanosTest,<sp/>L)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(49,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;IL&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(50,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;L&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(53,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;LIII&quot;</highlight><highlight class="normal">));<sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27" refid="d0/d09/_tests_8cpp_1a68a786bada42edc1056d32fe05110110" refkind="member"><highlight class="normal"><ref refid="d0/d09/_tests_8cpp_1a71ab55757dab3274d7ce4fda65d525cb" kindref="member">TEST</ref><sp/>(processa_romanosTest,<sp/>C)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(99,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;IC&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(100,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(103,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;CIII&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32" refid="d0/d09/_tests_8cpp_1aa9acc5741966225d743462ac9fe2a0eb" refkind="member"><highlight class="normal"><ref refid="d0/d09/_tests_8cpp_1a71ab55757dab3274d7ce4fda65d525cb" kindref="member">TEST</ref><sp/>(processa_romanosTest,<sp/>D)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(499,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;ID&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(500,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;D&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(503,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;DIII&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37" refid="d0/d09/_tests_8cpp_1adba8a3c1a657f2ca2e81647f80b0195a" refkind="member"><highlight class="normal"><ref refid="d0/d09/_tests_8cpp_1a71ab55757dab3274d7ce4fda65d525cb" kindref="member">TEST</ref><sp/>(processa_romanosTest,<sp/>M)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(900,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;CM&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(1000,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;M&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(1300,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;MCCC&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42" refid="d0/d09/_tests_8cpp_1a4fc29225452e107d5aa5ce8b869a71a4" refkind="member"><highlight class="normal"><ref refid="d0/d09/_tests_8cpp_1a71ab55757dab3274d7ce4fda65d525cb" kindref="member">TEST</ref><sp/>(processa_romanosTest,<sp/>MixIVXL)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(44,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;XLIV&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(45,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;XLV&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(48,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;XLVIII&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47" refid="d0/d09/_tests_8cpp_1a43764b8010c8b19709aa07f73946dfd9" refkind="member"><highlight class="normal"><ref refid="d0/d09/_tests_8cpp_1a71ab55757dab3274d7ce4fda65d525cb" kindref="member">TEST</ref><sp/>(processa_romanosTest,<sp/>MixIVXC)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(94,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;XCIV&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(95,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;XCV&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(98,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;XCVIII&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52" refid="d0/d09/_tests_8cpp_1af255b833dcf76f413b20da8aec74fda6" refkind="member"><highlight class="normal"><ref refid="d0/d09/_tests_8cpp_1a71ab55757dab3274d7ce4fda65d525cb" kindref="member">TEST</ref><sp/>(processa_romanosTest,<sp/>MixIVXLC)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(184,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;CLXXXIV&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(185,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;CLXXXV&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(188,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;CLXXXVIII&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57" refid="d0/d09/_tests_8cpp_1a53e032622a3cddfce1a0e5ce1af1dfd7" refkind="member"><highlight class="normal"><ref refid="d0/d09/_tests_8cpp_1a71ab55757dab3274d7ce4fda65d525cb" kindref="member">TEST</ref><sp/>(processa_romanosTest,<sp/>MixIVXLCD)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(664,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;DCLXIV&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(665,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;DCLXV&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(668,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;DCLXVIII&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62" refid="d0/d09/_tests_8cpp_1a300a1ded61f3945e571c9ccb63f59ce9" refkind="member"><highlight class="normal"><ref refid="d0/d09/_tests_8cpp_1a71ab55757dab3274d7ce4fda65d525cb" kindref="member">TEST</ref><sp/>(processa_romanosTest,<sp/>MixIVXLCDM)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(1644,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;MDCXLIV&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(1645,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;MDCXLV&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(1648,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;MDCXLVIII&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67" refid="d0/d09/_tests_8cpp_1a6251467894fb176797bb92f7d261503e" refkind="member"><highlight class="normal"><ref refid="d0/d09/_tests_8cpp_1a71ab55757dab3274d7ce4fda65d525cb" kindref="member">TEST</ref><sp/>(processa_romanosTest,<sp/>MMDCCCLV)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(2854,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;MMDCCCLIV&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(2855,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;MMDCCCLV&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(2858,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;MMDCCCLVIII&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72" refid="d0/d09/_tests_8cpp_1a43640f209d2f0dbbf992ea4b75e40e5f" refkind="member"><highlight class="normal"><ref refid="d0/d09/_tests_8cpp_1a71ab55757dab3274d7ce4fda65d525cb" kindref="member">TEST</ref><sp/>(processa_romanosTestTest,<sp/>end)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(2999,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;MMCMXCIX&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75" refid="d0/d09/_tests_8cpp_1ae64ff0359d8935c0abf297d955e5256f" refkind="member"><highlight class="normal"><ref refid="d0/d09/_tests_8cpp_1a71ab55757dab3274d7ce4fda65d525cb" kindref="member">TEST</ref><sp/>(processa_romanosTest,<sp/>invalidos)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(-1,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;HUE&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(-1,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;XCM&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(-1,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;IXI&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(-1,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;IIII&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(-1,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;IIV&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(-1,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;VX&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ<sp/>(-1,<sp/><ref refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="stringliteral">&quot;VV&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="d0/d09/_tests_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d0/d09/_tests_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**argv)<sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/>::testing::InitGoogleTest(&amp;argc,<sp/>argv);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RUN_ALL_TESTS();</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Tests.cpp"/>
+  </compounddef>
+</doxygen>

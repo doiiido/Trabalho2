@@ -1,0 +1,49 @@
+\hypertarget{trab2_8cc}{}\section{Referência do Arquivo trab2.\+cc}
+\label{trab2_8cc}\index{trab2.\+cc@{trab2.\+cc}}
+{\ttfamily \#include $<$string.\+h$>$}\newline
+\subsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{trab2_8cc_a851b98fcb248b8da42679a182e250fbd}{roman\+\_\+to\+\_\+int\+\_\+vect} (const char $\ast$rom, int $\ast$processed)
+\item 
+bool \hyperlink{trab2_8cc_a1e3c39941187d0f582ac283e59ee7a17}{valid\+\_\+roman} (const char $\ast$rom)
+\item 
+int \hyperlink{trab2_8cc_a1c2db40682caa830245e46feb294364e}{processa\+\_\+romanos} (const char $\ast$num)
+\end{DoxyCompactItemize}
+
+
+\subsection{Funções}
+\hypertarget{trab2_8cc_a1c2db40682caa830245e46feb294364e}{}\label{trab2_8cc_a1c2db40682caa830245e46feb294364e} 
+\index{trab2.\+cc@{trab2.\+cc}!processa\+\_\+romanos@{processa\+\_\+romanos}}
+\index{processa\+\_\+romanos@{processa\+\_\+romanos}!trab2.\+cc@{trab2.\+cc}}
+\subsubsection{\texorpdfstring{processa\+\_\+romanos()}{processa\_romanos()}}
+{\footnotesize\ttfamily int processa\+\_\+romanos (\begin{DoxyParamCaption}\item[{const char $\ast$}]{num }\end{DoxyParamCaption})}
+
+utiliza valid\+\_\+roman e roman\+\_\+to\+\_\+int\+\_\+vect para verificar a validade de um numero romano e transforma-\/lo em um vetor de inteiros respectivamente, sua função é processar o vetor de inteiros e computar o resultado aplicando as regras de soma e subtração romanas e retornar -\/1 para algarismos inválidos. um pequeno problema encontrado, o algarismo já estava somado ao tentar subtraí-\/lo, por isso é subtraido 2 vezes
+
+Definição na linha 90 do arquivo trab2.\+cc.
+
+\hypertarget{trab2_8cc_a851b98fcb248b8da42679a182e250fbd}{}\label{trab2_8cc_a851b98fcb248b8da42679a182e250fbd} 
+\index{trab2.\+cc@{trab2.\+cc}!roman\+\_\+to\+\_\+int\+\_\+vect@{roman\+\_\+to\+\_\+int\+\_\+vect}}
+\index{roman\+\_\+to\+\_\+int\+\_\+vect@{roman\+\_\+to\+\_\+int\+\_\+vect}!trab2.\+cc@{trab2.\+cc}}
+\subsubsection{\texorpdfstring{roman\+\_\+to\+\_\+int\+\_\+vect()}{roman\_to\_int\_vect()}}
+{\footnotesize\ttfamily int roman\+\_\+to\+\_\+int\+\_\+vect (\begin{DoxyParamCaption}\item[{const char $\ast$}]{rom,  }\item[{int $\ast$}]{processed }\end{DoxyParamCaption})}
+
+Programa desenvolvido por Lincoln Abreu Barbosa, 14/0045023 \href{https://github.com/doiiido/Trabalho2}{\tt https\+://github.\+com/doiiido/\+Trabalho2} roman\+\_\+to\+\_\+int\+\_\+vect processa a string do numero romano convertendo-\/a em um vetor de inteiros dos respectivos algarismos\+: C\+X\+I-\/$>$\mbox{[}100, 10, 1\mbox{]}, retornando -\/1 se houver algum caractere inválido. 
+
+Definição na linha 13 do arquivo trab2.\+cc.
+
+\hypertarget{trab2_8cc_a1e3c39941187d0f582ac283e59ee7a17}{}\label{trab2_8cc_a1e3c39941187d0f582ac283e59ee7a17} 
+\index{trab2.\+cc@{trab2.\+cc}!valid\+\_\+roman@{valid\+\_\+roman}}
+\index{valid\+\_\+roman@{valid\+\_\+roman}!trab2.\+cc@{trab2.\+cc}}
+\subsubsection{\texorpdfstring{valid\+\_\+roman()}{valid\_roman()}}
+{\footnotesize\ttfamily bool valid\+\_\+roman (\begin{DoxyParamCaption}\item[{const char $\ast$}]{rom }\end{DoxyParamCaption})}
+
+valid\+\_\+roman verifica se o número romano dado é válido, ou seja respeita as regras se subtração e adição romanas ele utiliza a roman\+\_\+to\+\_\+int\+\_\+vect pra verificar se nao há caracteres inválidos. I\+XI e semelhantes
+
+para invalidar 4 caracters iguais
+
+invalida VX LC DM VV LL DD
+
+Definição na linha 50 do arquivo trab2.\+cc.
+

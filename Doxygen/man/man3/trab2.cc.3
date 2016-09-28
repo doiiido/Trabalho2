@@ -1,0 +1,45 @@
+.TH "trab2.cc" 3 "Quarta, 28 de Setembro de 2016" "Trabalho 2" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+trab2.cc \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <string\&.h>\fP
+.br
+
+.SS "Funções"
+
+.in +1c
+.ti -1c
+.RI "int \fBroman_to_int_vect\fP (const char *rom, int *processed)"
+.br
+.ti -1c
+.RI "bool \fBvalid_roman\fP (const char *rom)"
+.br
+.ti -1c
+.RI "int \fBprocessa_romanos\fP (const char *num)"
+.br
+.in -1c
+.SH "Funções"
+.PP 
+.SS "int processa_romanos (const char * num)"
+utiliza valid_roman e roman_to_int_vect para verificar a validade de um numero romano e transforma-lo em um vetor de inteiros respectivamente, sua função é processar o vetor de inteiros e computar o resultado aplicando as regras de soma e subtração romanas e retornar -1 para algarismos inválidos\&. um pequeno problema encontrado, o algarismo já estava somado ao tentar subtraí-lo, por isso é subtraido 2 vezes
+.PP
+Definição na linha 90 do arquivo trab2\&.cc\&.
+.SS "int roman_to_int_vect (const char * rom, int * processed)"
+Programa desenvolvido por Lincoln Abreu Barbosa, 14/0045023 https://github.com/doiiido/Trabalho2 roman_to_int_vect processa a string do numero romano convertendo-a em um vetor de inteiros dos respectivos algarismos: CXI->[100, 10, 1], retornando -1 se houver algum caractere inválido\&. 
+.PP
+Definição na linha 13 do arquivo trab2\&.cc\&.
+.SS "bool valid_roman (const char * rom)"
+valid_roman verifica se o número romano dado é válido, ou seja respeita as regras se subtração e adição romanas ele utiliza a roman_to_int_vect pra verificar se nao há caracteres inválidos\&. IXI e semelhantes
+.PP
+para invalidar 4 caracters iguais
+.PP
+invalida VX LC DM VV LL DD
+.PP
+Definição na linha 50 do arquivo trab2\&.cc\&.
+.SH "Autor"
+.PP 
+Gerado automaticamente por Doxygen para Trabalho 2 a partir de seu código-fonte\&.

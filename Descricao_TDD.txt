@@ -1,0 +1,23 @@
+Primeiramente foi construída o teste que verificava o processamento do algarismo romano I,
+ainda com apenas o cabeçalho da função processa romanos implementada, e o teste falhou como previsto significando que o gtest
+estava corretamente configurado.
+
+Foi então implementada a identificação do romano I como inteiro 1 e do romano III como inteiro 3 e o primeiro teste foi bem-sucedido, significando que
+a implementacao inicial foi bem-sucedida. 
+
+Logo após foi implementado um teste que verificasse o processamento dos romanos IV,V e VIII que inicialmente falhou,
+depois foi implementado o processamento adequado o teste foi bem sucedido, significando que o algoritmo estava correto.
+
+Logo após foi implementado um teste que verificasse o processamento dos romanos IX, X e XI que inicialmente falhou, 
+depois foi implementado o processamento adequado o teste foi bem sucedido, significando que o algoritmo era facilmente expansível.
+
+Analogamente foram implementadosos testes que verificassem os processamentos dos romanos IL, L, LIII, IC, C, CIII, ID, D, DIII, CM, M, MCCC
+que inicialmente falharam, depois foi implementado o processamento adequado o teste foi bem sucedido,
+trabalhando agora com todos os algarismos romanos necesários.
+
+Logo após foi implementado uma série de testes que verificassem a associatividade dos algarismos romanos, que foi um sucesso inesperado, 
+demonstrando que o algoritmo era capaz de processar plenamente a associacao, no entando nao filtrava os algarismos invalidos.
+
+Foi implementado entao uma série testes que verificasse o processamento dos algarismos invalidos, que inicialmente falhou como experado,
+depois foi implementado o processamento adequado o teste foi bem sucedido, sendo o algoritmo agora capaz de processar os romanos até 3999 e 
+retornar -1 para o caso de nao ser um romano válido.

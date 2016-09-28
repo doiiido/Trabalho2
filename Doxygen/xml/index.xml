@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.12">
+  <compound refid="d0/d09/_tests_8cpp" kind="file"><name>Tests.cpp</name>
+    <member refid="d0/d09/_tests_8cpp_1a71ab55757dab3274d7ce4fda65d525cb" kind="function"><name>TEST</name></member>
+    <member refid="d0/d09/_tests_8cpp_1ac183552a0acfd4a73f8bfdf49fde6d9d" kind="function"><name>TEST</name></member>
+    <member refid="d0/d09/_tests_8cpp_1a37200a1bb40e19e7a8e264fefb851c33" kind="function"><name>TEST</name></member>
+    <member refid="d0/d09/_tests_8cpp_1ae18e99bf21463535d99fcf2496eb9c39" kind="function"><name>TEST</name></member>
+    <member refid="d0/d09/_tests_8cpp_1a68a786bada42edc1056d32fe05110110" kind="function"><name>TEST</name></member>
+    <member refid="d0/d09/_tests_8cpp_1aa9acc5741966225d743462ac9fe2a0eb" kind="function"><name>TEST</name></member>
+    <member refid="d0/d09/_tests_8cpp_1adba8a3c1a657f2ca2e81647f80b0195a" kind="function"><name>TEST</name></member>
+    <member refid="d0/d09/_tests_8cpp_1a4fc29225452e107d5aa5ce8b869a71a4" kind="function"><name>TEST</name></member>
+    <member refid="d0/d09/_tests_8cpp_1a43764b8010c8b19709aa07f73946dfd9" kind="function"><name>TEST</name></member>
+    <member refid="d0/d09/_tests_8cpp_1af255b833dcf76f413b20da8aec74fda6" kind="function"><name>TEST</name></member>
+    <member refid="d0/d09/_tests_8cpp_1a53e032622a3cddfce1a0e5ce1af1dfd7" kind="function"><name>TEST</name></member>
+    <member refid="d0/d09/_tests_8cpp_1a300a1ded61f3945e571c9ccb63f59ce9" kind="function"><name>TEST</name></member>
+    <member refid="d0/d09/_tests_8cpp_1a6251467894fb176797bb92f7d261503e" kind="function"><name>TEST</name></member>
+    <member refid="d0/d09/_tests_8cpp_1a43640f209d2f0dbbf992ea4b75e40e5f" kind="function"><name>TEST</name></member>
+    <member refid="d0/d09/_tests_8cpp_1ae64ff0359d8935c0abf297d955e5256f" kind="function"><name>TEST</name></member>
+    <member refid="d0/d09/_tests_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="d1/d6e/trab2_8cc" kind="file"><name>trab2.cc</name>
+    <member refid="d1/d6e/trab2_8cc_1a851b98fcb248b8da42679a182e250fbd" kind="function"><name>roman_to_int_vect</name></member>
+    <member refid="d1/d6e/trab2_8cc_1a1e3c39941187d0f582ac283e59ee7a17" kind="function"><name>valid_roman</name></member>
+    <member refid="d1/d6e/trab2_8cc_1a1c2db40682caa830245e46feb294364e" kind="function"><name>processa_romanos</name></member>
+  </compound>
+  <compound refid="d4/dc8/trab2_8h" kind="file"><name>trab2.h</name>
+    <member refid="d4/dc8/trab2_8h_1a1c2db40682caa830245e46feb294364e" kind="function"><name>processa_romanos</name></member>
+    <member refid="d4/dc8/trab2_8h_1a851b98fcb248b8da42679a182e250fbd" kind="function"><name>roman_to_int_vect</name></member>
+    <member refid="d4/dc8/trab2_8h_1a1e3c39941187d0f582ac283e59ee7a17" kind="function"><name>valid_roman</name></member>
+  </compound>
+</doxygenindex>

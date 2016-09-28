@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="d4/dc8/trab2_8h" kind="file" language="C++">
+    <compoundname>trab2.h</compoundname>
+    <includes refid="d1/d6e/trab2_8cc" local="yes">trab2.cc</includes>
+    <includedby refid="d0/d09/_tests_8cpp" local="yes">Tests.cpp</includedby>
+    <incdepgraph>
+      <node id="11">
+        <label>trab2.h</label>
+        <link refid="d4/dc8/trab2_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>string.h</label>
+      </node>
+      <node id="12">
+        <label>trab2.cc</label>
+        <link refid="d1/d6e/trab2_8cc"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="14">
+        <label>trab2.h</label>
+        <link refid="d4/dc8/trab2_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>Tests.cpp</label>
+        <link refid="d0/d09/_tests_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="d4/dc8/trab2_8h_1a1c2db40682caa830245e46feb294364e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int processa_romanos</definition>
+        <argsstring>(const char *num)</argsstring>
+        <name>processa_romanos</name>
+        <param>
+          <type>const char *</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>utiliza valid_roman e roman_to_int_vect para verificar a validade de um numero romano e transforma-lo em um vetor de inteiros respectivamente, sua função é processar o vetor de inteiros e computar o resultado aplicando as regras de soma e subtração romanas e retornar -1 para algarismos inválidos. </para>        </detaileddescription>
+        <inbodydescription>
+<para>um pequeno problema encontrado, o algarismo já estava somado ao tentar subtraí-lo, por isso é subtraido 2 vezes</para>        </inbodydescription>
+        <location file="trab2.h" line="6" column="1" bodyfile="trab2.cc" bodystart="90" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dc8/trab2_8h_1a851b98fcb248b8da42679a182e250fbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int roman_to_int_vect</definition>
+        <argsstring>(const char *rom, int *processed)</argsstring>
+        <name>roman_to_int_vect</name>
+        <param>
+          <type>const char *</type>
+          <declname>rom</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>processed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Programa desenvolvido por Lincoln Abreu Barbosa, 14/0045023 <ulink url="https://github.com/doiiido/Trabalho2">https://github.com/doiiido/Trabalho2</ulink> roman_to_int_vect processa a string do numero romano convertendo-a em um vetor de inteiros dos respectivos algarismos: CXI-&gt;[100, 10, 1], retornando -1 se houver algum caractere inválido. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="trab2.h" line="7" column="1" bodyfile="trab2.cc" bodystart="13" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dc8/trab2_8h_1a1e3c39941187d0f582ac283e59ee7a17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool valid_roman</definition>
+        <argsstring>(const char *rom)</argsstring>
+        <name>valid_roman</name>
+        <param>
+          <type>const char *</type>
+          <declname>rom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>valid_roman verifica se o número romano dado é válido, ou seja respeita as regras se subtração e adição romanas ele utiliza a roman_to_int_vect pra verificar se nao há caracteres inválidos. </para>        </detaileddescription>
+        <inbodydescription>
+<para>IXI e semelhantes</para><para>para invalidar 4 caracters iguais</para><para>invalida VX LC DM VV LL DD</para>        </inbodydescription>
+        <location file="trab2.h" line="8" column="1" bodyfile="trab2.cc" bodystart="50" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TRAB2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TRAB2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d1/d6e/trab2_8cc" kindref="compound">trab2.cc</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d4/dc8/trab2_8h_1a1c2db40682caa830245e46feb294364e" kindref="member">processa_romanos</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>num);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d4/dc8/trab2_8h_1a851b98fcb248b8da42679a182e250fbd" kindref="member">roman_to_int_vect</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>rom,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>processed);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d4/dc8/trab2_8h_1a1e3c39941187d0f582ac283e59ee7a17" kindref="member">valid_roman</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>rom);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="trab2.h"/>
+  </compounddef>
+</doxygen>

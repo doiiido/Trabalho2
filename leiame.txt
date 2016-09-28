@@ -1,0 +1,4 @@
+Os testes da função podem ser executados rodando apenas make ,
+para rodar o gcov no projeto digite make gcov ,
+para rodar o ccpcheck digite make check , 
+para limpar os aquivos gerados pelo gcov digite make clean. 

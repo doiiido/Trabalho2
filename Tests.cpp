@@ -1,3 +1,7 @@
+/* Programa desenvolvido por Lincoln Abreu Barbosa, 14/0045023
+	https://github.com/doiiido/Trabalho2
+	*/
+
 #include "gtest/gtest.h"
 #include "trab2.h"
 
